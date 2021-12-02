@@ -1,1 +1,58 @@
-<p>about section</p>
+<section class="about">
+  <div class="container">
+    <p class="about__label">tradition and love</p>
+    <h2 class="about__title">how it’s made?</h2>
+    <picture class="about__picture">
+      <source
+        media="(min-width: 1050px)"
+        srcset="
+          ../images/about-images/cow-desktop@1x.webp 1x,
+          ../images/about-images/cow-desktop@2x.webp 2x
+        "
+        type="image/webp" />
+      <source
+        media="(min-width: 1050px)"
+        srcset="
+          ../images/about-images/cow-desktop@1x.png 1x,
+          ../images/about-images/cow-desktop@2x.png 2x
+        " />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ../images/about-images/cow-tablet@1x.webp 1x,
+          ../images/about-images/cow-tablet@2x.webp 2x
+        "
+        type="image/webp" />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ../images/about-images/cow-tablet@1x.png 1x,
+          ../images/about-images/cow-tablet@2x.png 2x
+        " />
+      <source
+        srcset="
+          ../images/about-images/cow-mobile@1x.webp 1x,
+          ../images/about-images/cow-mobile@2x.webp 2x
+        "
+        type="image/webp" />
+      <img
+        class="about__img"
+        srcset="
+          ../images/about-images/cow-mobile@1x.png 1x,
+          ../images/about-images/cow-mobile@2x.png 2x
+        "
+        src="../images/about-images/cow-mobile@1x.png"
+        alt="корова и молоко"
+    /></picture>
+    <p class="about__lead">
+      Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem
+      eget, egestas eros. Maecenas eleifend erat at justo fringilla.
+    </p>
+    <p class="about__text">
+      Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in
+      imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus.
+    </p>
+    <p class="about__text">Cras massa nibh, tincidunt. Aliquam erat volutpat. Aenean accumsan.</p>
+    <button class="about__btn">Read more</button>
+  </div>
+</section>
