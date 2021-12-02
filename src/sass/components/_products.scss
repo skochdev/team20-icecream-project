@@ -1,0 +1,66 @@
+.products {
+ &__name{
+    color:red;
+
+    &:after{
+        background-image: url('../images/product-section-image/dots.png');
+        display: block;
+        width: 26px;
+        height:6px;
+        content: '';
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    }
+ }
+
+ .cream {
+     background-color: #FFB8CA;
+    &:before {
+        background-image: url('../images/product-section-image/icecream.png');
+        display: block;
+        width: 335px;
+        height: 335px;
+        content: '';
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    
+}
+
+ .coffee {
+        background-color: #F0D1A5;
+            &:before {
+                background-image: url('../images/product-section-image/icecoffee.png');
+                display: block;
+                width: 335px;
+                height: 335px;
+                content: '';
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+}
+
+
+ .milk {
+     background-color: #C2E297;
+  &:before {
+        background-image: url('../images/product-section-image/milkshakes.png');
+        display: block;
+        width: 335px;
+        height: 335px;
+        content: '';
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+ 
+
+ 
+
+
+
+
+
