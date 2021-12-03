@@ -21,3 +21,39 @@
     height: 40px;
   }
 }
+
+.button--white {
+  display: block;
+  align-self: center;
+  height: 44px;
+  min-width: 175px;
+  border: none;
+  border-radius: 22px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.29;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: $text-color-red;
+  background-color: #ffffff;
+  &:hover {
+    background-color: #ecebeb;
+  }
+  .about__btn-icon {
+    margin-left: 14px;
+    fill: $text-color-red;
+  }
+}
+
+// Це шлях до СВГхи для ХТМЛ
+
+// <button type="button" class="about__btn">
+//           Read more
+//           <svg class="about__btn-icon" width="6" height="10">
+//             <use href="images/sprites.svg#icon-right"></use>
+//           </svg>
+//         </button>
