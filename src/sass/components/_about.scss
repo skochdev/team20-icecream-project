@@ -1,1 +1,120 @@
+.about {
+  position: relative;
+  background-color: $background-pink;
+}
 
+.about__block {
+  padding-top: 125px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__label {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+  color: $text-color-pink;
+  margin-bottom: 15px;
+}
+
+.about__title {
+  font-family: Titan One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $text-color-red;
+  margin-bottom: 25px;
+}
+
+.about__picture {
+  display: block;
+  width: calc(100vh - 40px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about__text-block {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.about__lead {
+  line-height: 1.62;
+  color: $text-color-black;
+  margin-bottom: 30px;
+}
+
+.about__text {
+  line-height: 1.62;
+  color: $text-color-grey;
+  margin-bottom: 15px;
+}
+
+.about__btn {
+  display: block;
+  align-self: center;
+  height: 44px;
+  min-width: 175px;
+  border: none;
+  border-radius: 22px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.29;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: $text-color-red;
+  background-color: #ffffff;
+  &:hover {
+    background-color: #ecebeb;
+  }
+  .about__btn-icon {
+    margin-left: 14px;
+    fill: $text-color-red;
+  }
+}
+
+.about__milk {
+  position: absolute;
+  pointer-events: none;
+  bottom: 80;
+  background-image: url(/images/about-images/milk-mobile@x1.png);
+  width: 100vw;
+  height: 155px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(/images/about-images/milk-mobile@x2.png);
+  }
+  @media screen and (min-width: 768px) {
+    bottom: 70px;
+    height: 250px;
+    background-image: url(/images/about-images/milk-tablet@x1.png);
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(/images/about-images/milk-tablet@x2.png);
+    }
+  }
+  @media screen and (min-width: 1080px) {
+    bottom: -65px;
+    height: 535px;
+    background-image: url(/images/about-images/milk-desktop@x1.png);
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url(/images/about-images/milk-desktop@x2.png);
+    }
+  }
+}
