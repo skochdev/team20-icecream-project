@@ -1,3 +1,148 @@
-.customer-reviews {
-  background-color: tomato;
+.reviews-section{
+  
+  display: block;
+  text-align: center;
+  max-widtn: 280px;
+  margin-top: 80px;
+  margin-bottom: 86px;
+  @media screen and (min-width: $tablet) {
+  width: 620px;
+  margin-top: 121px;
+  margin-bottom: 119px;
 }
+@media screen and (min-width: $desktop) {
+  width: 926px;
+  margin-top: 123px;
+  margin-bottom: 132px;
+}
+}
+
+.customer-icon{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 31px;
+  @media screen and (min-width: $tablet) {
+  margin-bottom: 19px;
+}
+@media screen and (min-width: $desktop) {
+  margin-bottom: 15px;
+}
+}
+
+.review-text{
+  display: inline-block;
+  font-size: 12px;
+  line-height: 2.55;
+  text-align: $text-color-black;
+  background-color: #FAFAFA;
+  
+  
+
+  padding-top: 41px;
+  padding-right: 61px;
+  padding-bottom: 28px;
+  padding-left: 61px;
+
+  margin-bottom: 50px;
+  position: relative;
+
+@media screen and (max-width: 767px) {
+  
+  max-width: 280px;
+  
+}
+
+  @media screen and (min-width: $tablet) {
+  font-size: 14px;
+  line-height: 2.16;
+  width: 620px;  
+  padding-top: 47px;
+  padding-right: 80px;
+  padding-bottom: 34px;
+  padding-left: 80px;
+}
+
+@media screen and (min-width: $desktop) {
+  font-size: 16px;
+  line-height: 1.86;
+  width: 926px;
+  padding-top: 32px;
+  padding-right: 52px;
+  padding-bottom: 32px;
+  padding-left: 52px;
+}
+}
+
+.review-text::before{
+  content: '';
+
+  position: absolute;
+  top: 25px;
+  left: 65px;
+
+  width: 54px;
+  height: 40px;
+  
+  background-image: url("../images/customer/commapng.png");
+  background-repeat: no-repeat;
+  opacity: 0.7;
+
+  @media screen and (min-width: $tablet) {
+  top: 30px;
+  left: 40px;
+}
+
+@media screen and (min-width: $desktop) {
+  top: 15px;
+  left: 35px;
+}
+}
+
+.review-text::after {
+  content: '';
+
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 32px;
+  height: 4px;
+
+
+  margin-bottom: 18px;
+
+  background-image: url("../images/customer/dots.png");
+  background-repeat: no-repeat;
+  
+
+  @media screen and (min-width: $tablet) {
+    bottom: -44px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    bottom: -37px;
+  }
+}
+
+.review-gradient {
+  background: linear-gradient(to right, #E1E1E1 50%, transparent 50%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 200% 1px;
+}
+
+.customer-info{
+  font-size: 14px;
+  line-height: 1.86;
+  margin-bottom: 30px;
+  @media screen and (min-width: $tablet) {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 20px;
+  }
+}
+
