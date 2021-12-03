@@ -1,0 +1,23 @@
+.button {
+  display: block;
+  height: 24px;
+  border: none;
+  border-radius: 20px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 1.25;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: $text-color-white;
+  background-color: $text-color-red;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 14px;
+    line-height: 1.28;
+    height: 40px;
+  }
+}
