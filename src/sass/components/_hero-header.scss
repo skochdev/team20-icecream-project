@@ -1,0 +1,67 @@
+.header{
+    position: absolute;
+    width:100%;
+    // top: 0;
+    // left: 0;
+    background-color:#FFB8CA ;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.hero-header-container{
+    display:flex;
+    align-items: center;
+    // justify-content: space-between;
+    // padding-top: 6px;
+    // padding-left: 20px;
+    // background: #FFB8CA;
+}
+.logo{
+    width: 199px;
+height: 50px;
+left: 20px;
+top: 6px;
+
+}
+.hero-section{
+margin-left: auto;
+margin-right: auto;
+background-color: $background-pink;
+
+text-align: center;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+background-image:
+//  linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  url('images/hero-header/ice-cream.png'),
+  url('images/hero-header/Ellipse.png');
+//  background-position: ;
+// background-repeat: no-repeat;
+// background-size: ;
+// background-position:
+height: 502px;
+}
+
+.hero-title{
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 1.15px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+
+color:$text-color-white;
+}
+
+.hero__title__part{
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 96.5%;
+    /* or 46px */
+    text-transform: uppercase;
+    color: #D41443;
+    
+}
