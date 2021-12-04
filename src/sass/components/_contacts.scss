@@ -1,15 +1,15 @@
 .contacts {
+  background: linear-gradient(to top, #fff5f6 88%, #ffffff 0%);
 }
 
-.contacts-container {
+.contacts__container {
   display: flex;
-  padding-top: 132px;
 }
 
-.contacts-title {
+.contacts__title {
 }
 
-.contacts-card {
+.contacts__card {
   padding: 51px 44px 62px 43px;
   width: 330px;
 
@@ -22,12 +22,12 @@
   }
 }
 
-.contacts-headline {
+.contacts__headline {
   margin-top: 32px;
   margin-bottom: 32px;
 }
 
-.contacts-representation {
+.contacts__representation {
   width: 73px;
   height: 28px;
 
@@ -45,7 +45,7 @@
   color: $text-color-white;
 }
 
-.contacts-representation-truck {
+.contacts__representation-truck {
   width: 138px;
 
   font-style: normal;
@@ -62,7 +62,7 @@
   color: #ffffff;
 }
 
-.contacts-item {
+.contacts__item {
   margin-bottom: 10px;
 
   font-style: 400;
@@ -74,10 +74,10 @@
   color: $text-color-black;
 }
 
-.contacts-address {
+.contacts__address {
 }
 
-.contacts-day {
+.contacts__day {
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
@@ -85,9 +85,13 @@
   letter-spacing: 0.04em;
 
   color: $text-color-black;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
-.contacts-pages {
+.contacts__pages {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -97,7 +101,7 @@
   color: #907e82;
 }
 
-.contacts-data {
+.contacts__data {
   margin-top: 32px;
   margin-bottom: 32px;
   padding-top: 25px;
@@ -107,7 +111,7 @@
   border-top: 1px solid #e1e1e1;
   width: 234px;
 }
-.contacts-time {
+.contacts__time {
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
@@ -115,15 +119,15 @@
 
   color: #ffa5ba;
 
-  &:not(:last-child) {
-    margin-bottom: 15px;
-  }
+  // &:not(:last-child) {
+  //   margin-bottom: 15px;
+  // }
 }
-.contacts-list {
+.contacts__list {
   margin-top: 32px;
 }
 
-.contacts-tel {
+.contacts__tel {
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
@@ -132,7 +136,7 @@
   color: #907e82;
 }
 
-.contacts-mail {
+.contacts__mail {
   font-style: 400;
   font-weight: 500;
   font-size: 16px;
@@ -147,6 +151,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 86px;
+  padding-bottom: 165px;
 }
 
 .contacts__btn-location,
@@ -179,6 +184,7 @@
 }
 
 .contacts__btn-location {
+  margin-right: 15px;
   width: 198px;
 }
 
