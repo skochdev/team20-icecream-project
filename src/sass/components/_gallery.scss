@@ -1,0 +1,17 @@
+.gallery {
+  background: linear-gradient(#fff5f6 0%, #fff5f6 40%, #fff 40%, #fff 100%);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gallery-picture {
+  display: block;
+  width: 100%;
+}
+
+.gallery-img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}

@@ -1,3 +1,36 @@
+.header {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  top: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6px;
+  padding-left: 20px;
+  @media screen and (min-width: $tablet) {
+    padding-top: 37px;
+    padding-left: 34px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding-left: 46px;
+  }
+}
+
+.mobile-wrap {
+  @media screen and (min-width: $tablet) {
+    display: inline-flex;
+    align-items: center;
+  }
+}
+
+.hero {
+  background-color: rgba(255, 184, 202, 1);
+}
+
 .hero__right-part {
   background-color: #ffb8ca;
 }
