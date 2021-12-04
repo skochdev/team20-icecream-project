@@ -1,15 +1,15 @@
 .contacts {
+  background: linear-gradient(to top, #fff5f6 73%, #ffffff 0%);
 }
 
 .contacts-container {
   display: flex;
-  padding-top: 132px;
 }
 
-.contacts-title {
+.contacts__title {
 }
 
-.contacts-card {
+.contacts__card {
   padding: 51px 44px 62px 43px;
   width: 330px;
 
@@ -85,6 +85,10 @@
   letter-spacing: 0.04em;
 
   color: $text-color-black;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 .contacts-pages {
@@ -115,9 +119,9 @@
 
   color: #ffa5ba;
 
-  &:not(:last-child) {
-    margin-bottom: 15px;
-  }
+  // &:not(:last-child) {
+  //   margin-bottom: 15px;
+  // }
 }
 .contacts-list {
   margin-top: 32px;
@@ -147,6 +151,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 86px;
+  padding-bottom: 165px;
 }
 
 .contacts__btn-location,
@@ -179,6 +184,7 @@
 }
 
 .contacts__btn-location {
+  margin-right: 15px;
   width: 198px;
 }
 
