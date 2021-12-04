@@ -11,6 +11,7 @@
     background-image: none;
   }
   @media screen and (min-width: $desktop) {
+    background-size: $desktop;
     background-image: url(/images/about-images/milk-desktop@x1.png);
     @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
       background-image: url(/images/about-images/milk-desktop@x2.png);
@@ -156,9 +157,9 @@
   text-decoration: none;
   cursor: pointer;
   color: $text-color-red;
-  background-color: #ffffff;
+  background-color: $background-white;
   &:hover {
-    background-color: #ecebeb;
+    background-color: $hover-grey;
   }
   .about__btn-icon {
     margin-left: 14px;
