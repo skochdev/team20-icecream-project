@@ -6,8 +6,6 @@
   }
 }
 
-.advantages {
-}
 .advantages__list {
   display: block;
   @media screen and (min-width: $tablet) {
@@ -15,6 +13,7 @@
     justify-content: center;
   }
 }
+
 .advantages__item {
   width: 230px;
   &:not(:last-child) {
@@ -35,8 +34,7 @@
     }
   }
 }
-.advantages__list-text {
-}
+
 .advantages__text-main {
   font-family: Titan One;
   font-weight: 400;
@@ -46,14 +44,29 @@
   text-transform: uppercase;
   color: $text-color-red;
   margin-bottom: 20px;
+
+  @media screen and (min-width: $tablet) {
+    font-size: 48px;
+    line-height: calc(55 / 48);
+  }
+  @media screen and (min-width: $desktop) {
+    font-size: 58px;
+    line-height: calc(66 / 58);
+  }
 }
+
 .advantages__text-second {
   font-family: DM Sans;
   font-weight: 700;
   font-size: 12px;
-  line-height: 170%;
+  line-height: 1.7;
+  @media screen and (min-width: $tablet) {
+    font-size: 14px;
+    line-height: 1.74;
+  }
   @media screen and (min-width: $desktop) {
-    width: 265px;
+    font-size: 16px;
+    line-height: 1.76;
   }
 }
 
