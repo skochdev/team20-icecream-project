@@ -1,12 +1,97 @@
+.advantages-section {
+  background-color: $background-pink;
+  padding-bottom: 97px;
+  @media screen and (min-width: $tablet) {
+    padding-bottom: 140px;
+  }
+}
+
 .advantages {
 }
 .advantages__list {
+  display: block;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: center;
+  }
 }
 .advantages__item {
+  width: 230px;
+  &:not(:last-child) {
+    margin-bottom: 38px;
+  }
+  @media screen and (min-width: $tablet) {
+    width: 180px;
+    &:not(:last-child) {
+      margin-right: 60px;
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (min-width: $desktop) {
+    width: 330px;
+    &:not(:last-child) {
+      margin-right: 30px;
+      margin-bottom: 0;
+    }
+  }
 }
 .advantages__list-text {
 }
 .advantages__text-main {
+  font-family: Titan One;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: calc(41 / 36);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: $text-color-red;
+  margin-bottom: 20px;
 }
 .advantages__text-second {
+  font-family: DM Sans;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  @media screen and (min-width: $desktop) {
+    width: 265px;
+  }
+}
+
+.advantages-milk {
+  &:before {
+    content: '';
+    display: block;
+    background-image: url('../images/advantages/milk.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 33px;
+    height: 50px;
+    margin-bottom: 16px;
+  }
+}
+
+.advantages-fruits {
+  &:before {
+    content: '';
+    display: block;
+    background-image: url('../images/advantages/fruits.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+  }
+}
+
+.advantages-ice-cream {
+  &:before {
+    content: '';
+    display: block;
+    background-image: url('../images/advantages/ice-cream.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 44px;
+    height: 50px;
+    margin-bottom: 16px;
+  }
 }
