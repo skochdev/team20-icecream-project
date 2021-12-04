@@ -125,11 +125,13 @@
   }
 }
 
-.review-gradient {
-  background: linear-gradient(to right, #E1E1E1 50%, transparent 50%);
+.review-gradient{
+  // background: linear-gradient(to right, #E1E1E1 50%, transparent 50%);
+  display: inline;
+  background: linear-gradient(to right, #E1E1E1, #E1E1E1 100%);
   background-position: 0 100%;
+  background-size: 25px 1px;
   background-repeat: repeat-x;
-  background-size: 200% 1px;
 }
 
 .customer-info{
