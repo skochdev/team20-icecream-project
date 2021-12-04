@@ -56,7 +56,7 @@
           maximus. Cras massa nibh, tincidunt.
         </p>
         <p class="about__text">Aliquam erat volutpat. Aenean accumsan.</p>
-        <button type="button" class="about__btn">
+        <button type="button" class="about__btn" about-modal-open>
           Read more
           <svg class="about__btn-icon" width="6" height="10">
             <use href="images/sprites.svg#icon-right"></use>
@@ -66,3 +66,12 @@
     </div>
   </div>
 </section>
+<div class="backdrop is-hidden" about-modal>
+  <div class="modal">
+    <button type="button" class="modal__btn--close" about-modal-close>
+      <svg class="modal__icon--close" width="18" height="18">
+        <use href="images/sprites.svg#close"></use>
+      </svg>
+    </button>
+  </div>
+</div>
