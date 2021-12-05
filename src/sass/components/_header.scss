@@ -21,6 +21,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 34px;
+    padding-top: 37px;
   }
   @media screen and (min-width: $desktop) {
     width: $desktop;
@@ -38,7 +40,7 @@
   }
 }
 
-.js-open-menu {
+.mobile-button {
   display: block;
   margin-right: 20px;
   @media screen and (min-width: $desktop) {
@@ -60,7 +62,7 @@
   }
 }
 
-.header__navlist {
+.header__nav-list {
   @media screen and (min-width: $desktop) {
     margin-left: 355px;
     display: flex;
