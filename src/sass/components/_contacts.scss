@@ -1,6 +1,10 @@
 .contacts {
   background-size: 100vw;
 
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    background: linear-gradient(to top, #fff5f6 95%, #ffffff 0%);
+  }
+
   @media screen and (min-width: $mobile-container) {
     background: linear-gradient(to top, #fff5f6 95%, #ffffff 0%);
   }
@@ -42,7 +46,7 @@
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
 
-  @media screen and (min-width: 450px) and (max-width: 767px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     padding: 43px 45px 60px;
     max-width: 220px;
     margin: 0 auto;
@@ -273,8 +277,8 @@
     line-height: 1.83;
   }
 
-  @media screen and (min-width: $tablet-container) {
-    font-size: 16px;
+  @media screen and (min-width: $tablet-container) and (max-width: 1279px) {
+    font-size: 14px;
     line-height: 1.88;
   }
 
@@ -353,8 +357,11 @@
   margin-top: 86px;
   padding-bottom: 165px;
 
-  @media screen and (min-width: $mobile-container) and (max-width: 767px) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 }
 
@@ -388,7 +395,7 @@
 }
 
 .contacts__btn-location {
-  @media screen and (min-width: $mobile-container) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     width: 162px;
     margin-bottom: 10px;
   }
