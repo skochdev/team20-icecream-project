@@ -1,38 +1,224 @@
-<section class="section products-section">
-    <div class="container">
-        <p class="section__label">100% natural</p>
-        <h2 class="section__title">products</h2>
-        <ul class="products">
-            <li class="products__item cream">
-                <h3 class="products__name ">Ice Cream</h3>
-                <p class="products__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe architecto accusamus
-                commodi tenetur placeat illum consequuntur.</p>
-                <a class="products__link" href="">
-                    <svg class="products__icon" width="40" height="40">
-                        <use href=""> </use>
-                    </svg>
-                </a>
-            </li>
-            <li class="products__item coffee">
-                <h3 class="products__name">Ice Coffee</h3>
-                <p class="products__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe architecto accusamus
-                commodi tenetur placeat illum consequuntur.</p>
-                <a class="products__link" href="">
-                    <svg class="products__icon" width="40" height="40">
-                        <use href=""> </use>
-                    </svg>
-                </a>
-                   
-            </li>
-            <li class="products__item  milk" >
-                <h3 class="products__name">Milkshakes</h3>
-                <p class="products__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe architecto accusamus commodi tenetur placeat illum consequuntur.</p>
-                <a class="products__link" href="">
-                    <svg class="products__icon" width="40" height="40">
-                        <use href=""> </use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
-    </div>
+<section class="section products-section" id="products">
+  <div class="container">
+    <p class="section__label">100% natural</p>
+    <h2 class="section__title addmargin">products</h2>
+    <ul class="products">
+      <li class="products__item ice-cream">
+        <picture>
+          <source
+            srcset="
+              ./images/products/desktop/webp/ice-cream1@1x.webp 1x,
+              ./images/products/desktop/webp/ice-cream1@2x.webp 2x
+            "
+            media="(min-width:1280px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/products/desktop/ice-cream1@1x.png 1x,
+              ./images/products/desktop/ice-cream1@2x.png 2x
+            "
+            media="(min-width:1280px)"
+            type="image/png"
+          />
+
+          <source
+            srcset="
+              ./images/products/tablet/webp/ice-cream1@1x.webp 1x,
+              ./images/products/tablet/webp/ice-cream1@2x.webp 2x
+            "
+            media="(min-width:768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/products/tablet/ice-cream1@1x.png 1x,
+              ./images/products/tablet/ice-cream1@2x.png 2x
+            "
+            media="(min-width:768px)"
+            type="image/png"
+          />
+
+          <source
+            srcset="
+              ./images/products/mobile/webp/ice-cream1@1x.webp 1x,
+              ./images/products/mobile/webp/ice-cream1@2x.webp 2x
+            "
+            media="(max-width:767px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/products/mobile/ice-cream1@1x.png 1x,
+              ./images/products/mobile/ice-cream1@2x.png 2x
+            "
+            media="(max-width:767px)"
+            type="image/png"
+          />
+
+          <img
+            class="products-images"
+            src="./images/products/mobile/ice-cream1@1x.png"
+            alt="ice-cream"
+          />
+        </picture>
+        <h3 class="products__name">Ice Cream</h3>
+        <b class="text-products decor">...</b>
+        <p class="products__description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe architecto accusamus
+          commodi tenetur placeat illum consequuntur.
+        </p>
+
+        <button class="about-btn" aria-label="about-ice-cream">
+          <svg class="" width="15" height="15">
+            <use href="./images/products/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </li>
+
+      <li class="products__item ice-coffee">
+        <picture>
+          <source
+            srcset="
+              ./images/products/desktop/webp/ice-coffee2@1x.webp 1x,
+              ./images/products/desktop/webp/ice-coffee2@2x.webp 2x
+            "
+            media="(min-width:1280px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/products/desktop/ice-coffee2@1x.png 1x,
+              ./images/products/desktop/ice-coffee2@2x.png 2x
+            "
+            media="(min-width:1280px)"
+            type="image/png"
+          />
+
+          <source
+            srcset="
+              ./images/products/tablet/webp/ice-coffee2@1x.webp 1x,
+              ./images/products/tablet/webp/ice-coffee2@2x.webp 2x
+            "
+            media="(min-width:1280px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/products/tablet/ice-coffee2@1x.png 1x,
+              ./images/products/tablet/ice-coffee2@2x.png 2x
+            "
+            media="(min-width:768px)"
+            type="image/png"
+          />
+
+          <source
+            srcset="
+              ./images/products/mobile/webp/ice-coffee2@1x.webp 1x,
+              ./images/products/mobile/webp/ice-coffee2@2x.webp 2x
+            "
+            media="(max-width:767px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/products/mobile/ice-coffee2@1x.png 1x,
+              ./images/products/mobile/ice-coffee2@2x.png 2x
+            "
+            media="(max-width:767px)"
+            type="image/png"
+          />
+
+          <img
+            class="products-images"
+            src="./images/products/mobile/ice-coffee2@1x.png"
+            alt="ice-coffee"
+          />
+        </picture>
+        <h3 class="products__name">Ice Coffee</h3>
+        <b class="text-products decor">...</b>
+        <p class="products__description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe architecto accusamus
+          commodi tenetur placeat illum consequuntur.
+        </p>
+        <button class="about-btn" aria-label="about-ice-cream">
+          <svg class="" width="15" height="15">
+            <use href="./images/products/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="products__item milkshakes">
+        <picture>
+          <source
+            srcset="
+              ./images/products/desktop/webp/milkshakes3@1x.webp 1x,
+              ./images/products/desktop/webp/milkshakes3@2x.webp 2x
+            "
+            media="(min-width:1280px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/products/desktop/milkshakes3@1x.png 1x,
+              ./images/products/desktop/milkshakes3@2x.png 2x
+            "
+            media="(min-width:1280px)"
+            type="image/png"
+          />
+
+          <source
+            srcset="
+              ./images/products/tablet/webp/milkshakes3@1x.webp 1x,
+              ./images/products/tablet/webp/milkshakes3@2x.webp 2x
+            "
+            media="(min-width:768px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/products/tablet/milkshakes3@1x.png 1x,
+              ./images/products/tablet/milkshakes3@2x.png 2x
+            "
+            media="(min-width:768px)"
+            type="image/png"
+          />
+
+          <source
+            srcset="
+              ./images/products/mobile/webp/milkshakes3@1x.webp 1x,
+              ./images/products/mobile/webp/milkshakes3@2x.webp 2x
+            "
+            media="(max-width:767px)"
+            type="image/webp"
+          />
+          <source
+            srcset="
+              ./images/products/mobile/milkshakes3@1x.png 1x,
+              ./images/products/mobile/milkshakes3@2x.png 2x
+            "
+            media="(max-width:767px)"
+            type="image/png"
+          />
+
+          <img
+            class="products-images"
+            src="./images/products/mobile/milkshakes3@1x.png"
+            alt="ice-coffee"
+          />
+        </picture>
+        <h3 class="products__name">Milkshakes</h3>
+        <b class="text-products decor">...</b>
+        <p class="products__description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe architecto accusamus
+          commodi tenetur placeat illum consequuntur.
+        </p>
+
+        <button class="about-btn" aria-label="about-ice-cream">
+          <svg class="" width="15" height="15">
+            <use href="./images/products/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </div>
 </section>
