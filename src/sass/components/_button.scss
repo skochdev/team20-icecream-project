@@ -14,6 +14,8 @@
   cursor: pointer;
   color: $text-color-white;
   background-color: $text-color-red;
+  transition: $color-transition-250ms;
+  transition: $bgc-transition-250ms;
 
   @media screen and (min-width: 1280px) {
     font-size: 14px;
@@ -40,6 +42,9 @@
   cursor: pointer;
   color: $text-color-red;
   background-color: #ffffff;
+  transition: $color-transition-250ms;
+  transition: $bgc-transition-250ms;
+
   &:hover {
     background-color: #ecebeb;
   }
@@ -54,6 +59,9 @@
   margin-right: auto;
   color: $text-color-red;
   background-color: $background-white;
+  transition: $bgc-transition-250ms;
+  transition: $color-transition-250ms;
+
   &:hover {
     background-color: $hover-grey;
   }
@@ -73,6 +81,9 @@
 
   color: $text-color-red;
   background-color: $background-white;
+  transition: $bgc-transition-250ms;
+  transition: $color-transition-250ms;
+
   &:hover {
     background-color: $hover-grey;
   }
@@ -108,6 +119,8 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  transition: $color-transition-250ms;
+  transition: $bgc-transition-250ms;
 
   @media screen and (min-width: $tablet) {
     margin-left: auto;
@@ -121,6 +134,7 @@
   &__icon--burger {
     fill: $text-color-red;
     transition: $fill-transition-250ms;
+    transition: $bgc-transition-250ms;
   }
 
   &:hover .mobile-button__icon--burger,
