@@ -12,6 +12,13 @@ $background-grey: #e5e5e5;
 $background-white: #ffffff;
 $background-hero: #ffb8ca;
 
+// Переменные для транзишнов
+$bgc-transition-250ms: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$color-transition-250ms: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$fill-transition-250ms: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$box-shadow-transition-250ms: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$border-color-transition-250ms: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 //переменные для адаптивки
 
 $mobile: 480px;
