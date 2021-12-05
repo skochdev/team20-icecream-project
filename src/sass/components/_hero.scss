@@ -148,6 +148,13 @@
   }
 }
 
+.hero__biomilk-img {
+  animation-name: changeWidthAndOpacity;
+  animation-duration: 1000ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 500ms;
+  animation-fill-mode: both;
+}
 
 .hero__description {
   @media screen and (min-width: $tablet) {
@@ -218,12 +225,25 @@
 }
 
 .hero__number-cafes {
+  animation-name: changeWidthAndOpacity;
+  animation-duration: 1000ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 1000ms;
+  animation-fill-mode: both;
   @media screen and (min-width: $tablet) {
     margin-bottom: 13px;
   }
   @media screen and (min-width: $desktop) {
     margin-bottom: 15px;
   }
+}
+
+.hero__number-food {
+  animation-name: changeWidthAndOpacity;
+  animation-duration: 1000ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 1500ms;
+  animation-fill-mode: both;
 }
 
 
@@ -281,5 +301,38 @@
     font-size: 14px;
     line-height: 1.29;
     margin-right: 18px;
+  }
+}
+
+.hero__girl-img {
+  animation-name: changeWidthAndOpacity;
+  animation-duration: 1000ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 2000ms;
+  animation-fill-mode: both;
+}
+
+.test {
+  animation-name: changeWidthAndOpacity;
+  animation-duration: 1000ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-delay: 500ms;
+  animation-fill-mode: both;
+}
+
+@keyframes changeWidthAndOpacity {
+  0% {
+    width: 0%;
+    opacity: 0;
+  }
+
+  50% {
+    width: 130%;
+    opacity: 1;
+  }
+
+  100% {
+    width: 100%;
+    opacity: 1;
   }
 }
