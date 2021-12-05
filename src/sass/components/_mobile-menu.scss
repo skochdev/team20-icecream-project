@@ -1,0 +1,80 @@
+.is-open {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__header {
+  position: absolute;
+  right: 0;
+  display: block;
+  width: 250px;
+  height: 100vh;
+
+  background-color: #e17992;
+
+  z-index: 1000;
+}
+
+.modal__btn-close {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  top: 23px;
+  right: 28px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  fill: $text-color-white;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: $text-color-red;
+  }
+}
+
+.modal__btn-close-icon {
+  &:hover,
+  &:focus {
+    fill: $text-color-red;
+  }
+}
+
+.button__hero-mobile {
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mobile__nav-list {
+  margin-top: 32px;
+  display: block;
+  width: 100%;
+}
+
+.mobile__nav-item {
+  display: block;
+  align-items: center;
+  height: 40px;
+  padding-left: 21px;
+  border-top: 1px solid #e18298;
+  &:last-child {
+    border-bottom: 1px solid #e18298;
+  }
+}
+
+.mobile__nav-link {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: $text-color-white;
+  &:hover,
+  &:focus {
+    color: $text-color-red;
+  }
+}
