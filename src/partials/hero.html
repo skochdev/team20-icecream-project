@@ -1,5 +1,59 @@
-<section class="section section__hero">
-  <!-- <div class="container">
+<section class="section__hero">
+  <div class="container hero__conteiner">
+    <div class="hero__left-part">
+      <div class="hero__title-block">
+        <h1 class="hero__title">
+          ice cream made with <span class="hero__title-span">passion</span>
+        </h1>
+        <button type="button" class="hero__btn-red" href="#products">Products</button>
+        <button type="button" class="hero__btn-white" href="#about">How it’s made?</button>
+      </div>
+      <div class="hero__bio-block">
+        <picture class="hero__biomilk-picture">
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              images/hero-header/biomilk-desktop@x1.webp 1x,
+              images/hero-header/biomilk-desktop@x2.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              images/hero-header/biomilk-desktop@x1.png 1x,
+              images/hero-header/biomilk-desktop@x2.png 2x
+            " />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/hero-header/biomilk-tablet@x1.webp 1x,
+              images/hero-header/biomilk-tablet@x2.webp 2x
+            "
+            type="image/webp" />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              images/hero-header/biomilk-tablet@x2.png 1x,
+              images/hero-header/biomilk-tablet@x2.png 2x
+            " />
+          <img
+            class="hero__biomilk-img"
+            src="images/hero-header/biomilk-tablet@x1.png"
+            alt="молоко"
+        /></picture>
+        <div class="hero__description">
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+          </p>
+          <button class="hero__description-btn">
+            <svg class="" width="10" height="10">
+              <use href="./images/products/sprite.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
     <div class="hero__right-part">
       <div class="hero__numbers">
         <div class="hero__number-cafes">
@@ -41,5 +95,5 @@
         <img class="hero__girl-img" src="images/hero-header/girl-tablet@x1.png" alt="дівчина"
       /></picture>
     </div>
-  </div> -->
+  </div>
 </section>
