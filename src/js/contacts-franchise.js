@@ -1,8 +1,8 @@
 (() => {
   const refs = {
-    openFranBtn: document.querySelector('[data-franchise-open]'),
-    closeFranBtn: document.querySelector('[data-franchise-close]'),
-    fran: document.querySelector('[data-franchise]'),
+    openFranBtn: document.querySelector('[contacts-franchise-open]'),
+    closeFranBtn: document.querySelector('[contacts-franchise-close]'),
+    fran: document.querySelector('[contacts-franchise]'),
   };
 
   refs.openFranBtn.addEventListener('click', toggleModal);
@@ -10,6 +10,8 @@
 
   function toggleModal() {
     document.body.classList.toggle('modal-open-franchise');
-    refs.fran.classList.toggle('is-hidden-franchise');
+    refs.fran.classList.toggle('is-hidden');
   }
 })();
+
+
