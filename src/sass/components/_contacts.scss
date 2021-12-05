@@ -1,12 +1,5 @@
 .contacts {
-  // background: linear-gradient(to top, #fff5f6 92%, #ffffff 0%);
-  // background-image: url(/images/contacts/contacts-min.png);
   background-size: 100vw;
-  // background-position: bottom center;
-
-  // @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  //   background-image: url(/images/contacts/contacts@2x.png);
-  // }
 
   @media screen and (min-width: $mobile-container) {
     background: linear-gradient(to top, #fff5f6 95%, #ffffff 0%);
@@ -397,6 +390,7 @@
 .contacts__btn-location {
   @media screen and (min-width: $mobile-container) {
     width: 162px;
+    margin-bottom: 10px;
   }
 
   @media screen and (min-width: $tablet-container) {
