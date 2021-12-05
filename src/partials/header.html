@@ -5,11 +5,11 @@
     </a>
 
     <!-- burger mobile button -->
-    <button mobile-open-menu
+    <button 
       type="button"
       aria-expanded="false"
       aria-controls="mobile-menu-container"
-      class="mobile-button js-open-menu"
+      class="mobile-button js-open-menu "
     >
       <svg
         width="40"
@@ -25,7 +25,7 @@
     
 
     <nav class="header__nav">
-      <ul class="header__navlist">
+      <ul class="header__nav-list">
         <li class="header__nav-item">
           <a class="header__nav-link" href="./index.html">Home</a>
         </li>
@@ -56,19 +56,37 @@
 </header>
 
 <!-- Modal MENU start -->
-<div class="backdrop is-hidden1" mobile-menu-container>
+<div class="backdrop is-open js-menu-container" >
   <div class="modal__header">
-    <button class="modal__btn-close" type="button" mobile-close-menu>
+    <button class="modal__btn-close js-close-menu" type="button" >
       <svg class="modal__btn-close-icon" width="14" height="14">
         <use href="images/sprites.svg#close"></use>
       </svg>
     </button>
-    <button type="button" class="button--white button__hero">
+    <button type="button" class="button--white button__hero-mobile">
       Buy now
       <svg class="about__btn-icon" width="6" height="10">
         <use href="images/sprites.svg#icon-right"></use>
       </svg>
     </button>
+    
+      <ul class="mobile__nav-list">
+        <li class="mobile__nav-item">
+          <a class="mobile__nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="mobile__nav-item">
+          <a class="mobile__nav-link" href="#about">About us</a>
+        </li>
+        <li class="mobile__nav-item">
+          <a class="mobile__nav-link" href="#about">How it’s made?</a>
+        </li>
+        <li class="mobile__nav-item">
+          <a class="mobile__nav-link" href="#products">Our products</a>
+        </li>
+        <li class="mobile__nav-item">
+          <a class="mobile__nav-link" href="#contacts">Contact</a>
+        </li>
+      </ul>
   </div>
 </div>
 <!-- Modal MENU end -->

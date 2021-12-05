@@ -32,29 +32,27 @@
 
 .review-text{
   
-  display: block;
+  
   font-size: 12px;
   line-height: 2.55;
   text-align: center;
- 
   background-color: #FAFAFA;
   position: relative;
-  
-  z-index: 1;
 
+  z-index: 1;
 
   padding-top: 41px;
   padding-right: 61px;
   padding-bottom: 28px;
   padding-left: 61px;
 
-  margin-bottom: 50px;
-  position: relative;
+ 
+  
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 
 @media screen and (max-width: 767px) {
-  
   max-width: 280px;
   
 }
@@ -107,6 +105,7 @@
 }
 }
 
+
 .review-text::after {
   content: '';
 
@@ -133,14 +132,6 @@
   }
 }
 
-.review-gradient{
-  
-  display: inline;
-  background: linear-gradient(to right, #E1E1E1, #E1E1E1 100%);
-  background-position: 0 100%;
-  background-size: 25px 1px;
-  background-repeat: repeat-x;
-}
 
 .customer-info{
   font-size: 14px;
@@ -164,4 +155,60 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.review-text__gradient{
+  display: inline;
+  padding-bottom: 5px;
+
+  background: linear-gradient(to right, #E1E1E1, #E1E1E1);
+  background-position: 0 100%;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
+}
+
+.slick-prev, .slick-next{
+
+
+background-color: #FAFAFA;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+
+z-index: 5;
+}
+
+.slick-prev{
+  left: 1%;
+}
+.slick-next{
+  right: 1%;
+}
+.slick-prev::before,
+.slick-next::before{
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+  border-top: 3px solid $hover-red;
+  border-left: 3px solid $hover-red;
+  border-radius: 2px;
+}
+.slick-prev::before{
+  transform: rotate(-45deg);
+  margin-left: 11px;
+}
+.slick-next::before{
+  transform: rotate(135deg);
+  margin-right: 11px;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  
+  background: $hover-grey;
+  box-shadow: 0px 3px 10px $hover-red;
 }

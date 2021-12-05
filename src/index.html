@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
+    <!-- -- Подключение стилей для слайдера -- -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick-theme.css" />
+    <!-- -- Подключение стилей для слайдера -- -->
+    
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
       rel="stylesheet"
@@ -36,5 +41,20 @@
     <script src="./index.js"></script>
     <script src="./js/about-modal.js"></script>
     <script src="./js/mobile-modal.js"></script>
+
+    <!-- -- Скрипт для слайдера -- -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
+    <script>
+    $('.multiple-items').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      });
+    </script>
+    <!-- -- Скрипт для слайдера -- -->
+
+
+    
+
   </body>
 </html>
