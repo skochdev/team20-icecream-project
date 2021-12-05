@@ -71,6 +71,7 @@
 
 .header__nav-link {
   color: $text-color-white;
+  transition: $color-transition-250ms;
   &:hover,
   &:focus {
     color: $text-color-red;
@@ -87,6 +88,7 @@
   background-color: $text-color-white;
   color: $text-color-red;
   display: none;
+  transition: $bgc-transition-250ms;
 
   @media screen and (min-width: $tablet) {
     display: block;
