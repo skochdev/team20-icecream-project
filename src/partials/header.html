@@ -1,0 +1,51 @@
+<header class="header">
+  <div class="header__wrapper container">
+    <a class="header__logo" href="./index.html">
+      <img src="images/hero-header/logo.png" alt="логотип сайта" />
+    </a>
+
+    <!-- burger mobile button -->
+    <button
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobile-menu-container"
+      class="mobile-button js-open-menu"
+    >
+      <svg
+        width="40"
+        height="40"
+        class="icon-menu"
+        aria-label="Переключатель
+            мобильного меню"
+      >
+        <use class="mobile-button__icon--burger" href="./images/sprites.svg#icon-burger"></use>
+      </svg>
+    </button>
+
+    <nav class="header__nav">
+      <ul class="header__navlist">
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="./index.html">Home</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#about">About us</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#about">How it’s made?</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#products">Our products</a>
+        </li>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="#contacts">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="button--white button__hero">
+      Buy now
+      <svg class="about__btn-icon" width="6" height="10">
+        <use href="images/sprites.svg#icon-right"></use>
+      </svg>
+    </button>
+  </div>
+</header>
