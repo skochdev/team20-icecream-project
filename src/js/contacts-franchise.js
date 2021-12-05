@@ -9,7 +9,7 @@
   refs.closeFranBtn.addEventListener('click', toggleModal);
 
   function toggleModal() {
-    document.body.classList.toggle('modal-open-franchise');
+    document.body.classList.toggle('modal-open');
     refs.fran.classList.toggle('is-hidden');
   }
 })();
