@@ -11,7 +11,7 @@ function onMousemoveCardHandler(evt) {
   const halfWidth = cardInner.offsetWidth / 8;
   const y = evt.offsetY;
   const x = evt.offsetX;
-  cardInner.style.transform = `rotateX(${(-y + halfHeight) / 5}deg) rotateY(${
+  cardInner.style.transform = `rotateX(${(-y + halfHeight) / 10}deg) rotateY(${
     (x - halfWidth) / 4
   }deg)`;
 }
