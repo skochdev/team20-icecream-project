@@ -5,7 +5,7 @@
     </a>
 
     <!-- burger mobile button -->
-    <button
+    <button mobile-open-menu
       type="button"
       aria-expanded="false"
       aria-controls="mobile-menu-container"
@@ -21,6 +21,8 @@
         <use class="mobile-button__icon--burger" href="./images/sprites.svg#icon-burger"></use>
       </svg>
     </button>
+
+    
 
     <nav class="header__nav">
       <ul class="header__navlist">
@@ -47,5 +49,23 @@
         <use href="images/sprites.svg#icon-right"></use>
       </svg>
     </button>
+
+    <!-- Modal MENU start -->
+    <div class="backdrop is-hidden" mobile-menu-container>
+      <div class="modal__header">
+        <button class="modal__btn-close" type="button" mobile-close-menu>
+          <svg class="modal__btn-close-icon" width="14" height="14">
+            <use href="images/sprites.svg#close"></use>
+          </svg>
+        </button>
+        <button type="button" class="button--white button__hero">
+          Buy now
+          <svg class="about__btn-icon" width="6" height="10">
+            <use href="images/sprites.svg#icon-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Modal MENU end -->
   </div>
 </header>
