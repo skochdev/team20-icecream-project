@@ -171,6 +171,13 @@
     background-color: #c2e297;
     box-shadow: 0px 6px 6px rgba(194, 226, 151, 0.45);
   }
+  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    transform: scale(1.09);
+    box-shadow: 0px 5px 18px #c7133e;
+  }
 }
 .products-images {
   display: inline-block;
@@ -188,9 +195,6 @@
     margin-top: -140px;
     margin-bottom: 22px;
   }
-
-  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .about-btn {
