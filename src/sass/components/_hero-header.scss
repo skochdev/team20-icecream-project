@@ -1,8 +1,13 @@
 .header {
   position: absolute;
   left: 50%;
-  top: 50px;
+  top: 35px;
   transform: translate(-50%, -50%);
+
+  @media screen and (min-width: $tablet) {
+    position: absolute;
+    top: 55px;
+  }
 }
 
 .header__wrapper {
@@ -12,18 +17,32 @@
 }
 
 .header__logo {
+  position: static;
+
+  @media screen and (min-width: $desktop) {
+    position: absolute;
+  }
 }
 
 .header__nav {
-  display: flex;
-
+  display: none;
   font-weight: 700;
   font-size: 16px;
   line-height: calc(21 / 16);
+
+  @media screen and (min-width: $tablet) {
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
 }
 
 .header__navlist {
-  display: flex;
+  @media screen and (min-width: $desktop) {
+    margin-left: 240px;
+    display: flex;
+  }
 }
 
 .header__nav-link {
@@ -39,11 +58,16 @@
   margin-right: 35px;
 }
 
-.hero__button {
+.button__hero {
   margin: 0;
   padding: 0;
   background-color: $text-color-white;
   color: $text-color-red;
+  display: none;
+
+  @media screen and (min-width: $tablet) {
+    display: block;
+  }
 }
 
 .mobile-wrap {
