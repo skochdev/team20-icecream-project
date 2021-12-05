@@ -380,6 +380,8 @@
 
   color: #d41443;
   background: #ffffff;
+  transition: $color-transition-250ms;
+  transition: $bgc-transition-250ms;
   border-radius: 22px;
 
   &:hover,
