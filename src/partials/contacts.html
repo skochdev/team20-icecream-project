@@ -1,8 +1,7 @@
 <section class="contacts" id="contacts">
-  <div class="container contacts__container">
-    <h2 class="contacts__title visually-hidden">Контакты</h2>
-
-    <div class="contacts__card">
+  <h2 class="contacts__title visually-hidden">Контакты</h2>
+  <ul class="container contacts__container">
+    <li class="contacts__card">
       <p class="contacts__representation">CAFE</p>
       <div class="contacts__headline">
         <p class="contacts__item">Chicago</p>
@@ -26,9 +25,9 @@
           <a class="contacts__mail link" href="mailto:noreply@envato.com"> noreply@envato.com</a>
         </li>
       </ul>
-    </div>
+    </li>
 
-    <div class="contacts__card">
+    <li class="contacts__card">
       <p class="contacts__representation-truck">FOOD TRUCK</p>
       <div class="contacts__headline">
         <p class="contacts__item">Los Angeles</p>
@@ -52,9 +51,9 @@
           <a class="contacts__mail link" href="mailto:noreply@envato.com"> noreply@envato.com</a>
         </li>
       </ul>
-    </div>
+    </li>
 
-    <div class="contacts__card">
+    <li class="contacts__card">
       <p class="contacts__representation">CAFE</p>
       <div class="contacts__headline">
         <p class="contacts__item">New York</p>
@@ -78,8 +77,8 @@
           <a class="contacts__mail link" href="mailto:noreply@envato.com"> noreply@envato.com</a>
         </li>
       </ul>
-    </div>
-  </div>
+    </li>
+  </ul>
   <div class="container contacts__btn">
     <button type="button" class="contacts__btn-location" contacts-map-open>
       Our Locations
@@ -174,21 +173,22 @@
     </div>
   </div>
 
-<div class="backdrop-map is-hidden" contacts-map>
-  <div class="map-responsive">
-    <button type="button" class="map-modal-btn" contacts-map-close>
+  <div class="backdrop-map is-hidden" contacts-map>
+    <div class="map-responsive">
+      <button type="button" class="map-modal-btn" contacts-map-close>
         <svg class="modal__icon--close" width="18" height="18">
           <use href="images/sprites.svg#close"></use>
         </svg>
       </button>
-    <iframe
-    class="google-maps"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20911.433474673646!2d33.400334193329435!3d49.068980751480076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d753824f6d38bb%3A0xd8433364dd8c3e8f!2z0JzQvtGA0L7QttC10L3QvtC1IElDRSBDUkVBTQ!5e0!3m2!1sru!2sua!4v1638823475412!5m2!1sru!2sua"
-      width="600"
-      height="450"
-      style="border: transparent"
-      allowfullscreen=""
-      loading="lazy"
-    ></iframe>
+      <iframe
+        class="google-maps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20911.433474673646!2d33.400334193329435!3d49.068980751480076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d753824f6d38bb%3A0xd8433364dd8c3e8f!2z0JzQvtGA0L7QttC10L3QvtC1IElDRSBDUkVBTQ!5e0!3m2!1sru!2sua!4v1638823475412!5m2!1sru!2sua"
+        width="600"
+        height="450"
+        style="border: transparent"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </div>
   </div>
 </section>

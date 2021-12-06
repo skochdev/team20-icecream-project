@@ -24,13 +24,15 @@
 
 .contacts__container {
   @media screen and (min-width: $mobile) {
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
   @media screen and (min-width: $tablet) {
-    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   @media screen and (min-width: $desktop) {
