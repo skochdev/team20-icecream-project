@@ -96,7 +96,7 @@
 
   color: $text-color-white;
 
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 12px;
     line-height: 1.83;
     width: 80px;
@@ -129,7 +129,7 @@
 
   color: #ffffff;
 
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 12px;
     line-height: 1.83;
     width: 130px;
@@ -157,7 +157,7 @@
 
   color: $text-color-black;
 
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 12px;
     line-height: 1.83;
   }
@@ -186,23 +186,28 @@
 
   color: $text-color-black;
 
-  &:not(:last-child) {
-    margin-bottom: 15px;
-  }
-
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 12px;
     line-height: 1.83;
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
   }
 
   @media screen and (min-width: $tablet) {
     font-size: 14px;
     line-height: 1.86;
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
   }
 
   @media screen and (min-width: $desktop) {
     font-size: 16px;
     line-height: 1.88;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
   }
 }
 
@@ -214,7 +219,7 @@
 
   color: #907e82;
 
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 11px;
     line-height: 1.5;
   }
@@ -272,7 +277,7 @@
 
   color: #ffa5ba;
 
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 12px;
     line-height: 1.83;
   }
@@ -309,7 +314,7 @@
 
   color: #907e82;
 
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 12px;
     line-height: 1.5;
   }
@@ -333,7 +338,7 @@
 
   color: #907e82;
 
-  @media screen and (min-width: $mobile) {
+  @media screen and (min-width: 320px) and (max-width: 767px) {
     font-size: 12px;
     line-height: 1.5;
   }
