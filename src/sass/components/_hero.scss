@@ -1,6 +1,6 @@
 .section__hero {
-  padding-top: 150px;
   height: 502px;
+  padding-top: 193px;
   background-color: $background-hero;
   background-image: url(/images/hero-header/cream-mobile@x1.png),
     url(/images/hero-header/ellipse.png);
@@ -12,7 +12,8 @@
       url(/images/hero-header/ellipse.png);
   }
   @media screen and (min-width: $tablet) {
-    height: auto;
+    height: 396px;
+    padding-top: 94px;
     background-size: 143px, 323px;
     background-position: bottom left 49vw, bottom 12vh left 40vw;
     background-image: url(/images/hero-header/cream-tablet@x1.png),
@@ -23,6 +24,8 @@
     }
   }
   @media screen and (min-width: $desktop) {
+    height: 648px;
+    padding-top: 156px;
     background-size: 236px, 538px;
     background-position: bottom left 46vw, bottom 11vh left 37vw;
     background-image: url(/images/hero-header/cream-desktop@x1.png),
@@ -150,9 +153,9 @@
 
 .hero__biomilk-img {
   animation-name: changeWidthAndOpacity;
-  animation-duration: 1000ms;
+  animation-duration: 500ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-delay: 500ms;
+  animation-delay: 300ms;
   animation-fill-mode: both;
 }
 
@@ -226,9 +229,9 @@
 
 .hero__number-cafes {
   animation-name: changeWidthAndOpacity;
-  animation-duration: 1000ms;
+  animation-duration: 500ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-delay: 1000ms;
+  animation-delay: 600ms;
   animation-fill-mode: both;
   @media screen and (min-width: $tablet) {
     margin-bottom: 13px;
@@ -240,9 +243,9 @@
 
 .hero__number-food {
   animation-name: changeWidthAndOpacity;
-  animation-duration: 1000ms;
+  animation-duration: 500ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-delay: 1500ms;
+  animation-delay: 900ms;
   animation-fill-mode: both;
 }
 
@@ -306,9 +309,9 @@
 
 .hero__girl-img {
   animation-name: changeWidthAndOpacity;
-  animation-duration: 1000ms;
+  animation-duration: 500ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  animation-delay: 2000ms;
+  animation-delay: 1200ms;
   animation-fill-mode: both;
 }
 
