@@ -262,8 +262,8 @@
 
 .map-responsive {
   position: absolute;
-  width: 305px;
-  height: 412px;
+  // width: 305px;
+  // height: 412px;
   padding: 20px;
   background: #ffb8ca;
   top: 50%;
@@ -275,14 +275,24 @@
   box-shadow: 0px 8px 30px rgb(212 20 67 / 10%);
   border-radius: 24px;
 
-  @media screen and (min-width: 768px) {
-    width: 500px;
-    height: 425px;
+  @media screen and (min-width: 320px) {
+    width: 300px;
+    height: 410px;
   }
 
-  @media screen and (min-width: 1280px) {
-    width: 800px;
-    height: 475px;
+  @media screen and (min-width: $mobile) {
+    width: 450px;
+    height: 500px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 726px;
+    height: 557px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 858px;
+    height: 600px;
   }
 }
 
