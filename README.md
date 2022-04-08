@@ -10,8 +10,6 @@ fixing/finding errors, organizing files for the team.
 
 Great experience, 10/10 would do it again :)
 
-# Parcel boilerplate
-
 ![WebStudio HTML + CSS final project. Presentation](./desktop.png)
 
 ![WebStudio HTML + CSS final project. Presentation](./tablet.png)
